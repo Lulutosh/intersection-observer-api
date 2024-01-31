@@ -4,3 +4,28 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body{
+    background-color: black;
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+/* make sure to center elements on div */
+section{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+/* define styles for class we want effect on 
+making use of transform property for horizontal transition 
+opacity is set on 0 in order to hide content */
+
+.animation{
+    opacity: 0;
+    transform: translateX(-300px);
+    transition: all 0.7s ease-out;
+    transition-delay: 0.4s;
+}
+
+

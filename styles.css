@@ -28,4 +28,8 @@ opacity is set on 0 in order to hide content */
     transition-delay: 0.4s;
 }
 
-
+/*class that shows content*/
+.scroll-animation{
+    opacity: 1;
+    transform: translateX(0);
+}

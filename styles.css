@@ -13,8 +13,10 @@ body{
 
 /* make sure to center elements on div */
 section{
-    display: grid;
-    place-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     height: 100vh;
 }
 /* define styles for class we want effect on 

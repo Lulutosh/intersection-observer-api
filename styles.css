@@ -8,15 +8,12 @@
 body{
     background-color: black;
     color: white;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 
 /* make sure to center elements on div */
 section{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    display: grid;
+    place-items: center;
     height: 100vh;
 }
 /* define styles for class we want effect on 
